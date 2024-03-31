@@ -1,0 +1,12 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ConfigurationServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/siddarth-ba-72/MicroServiceConfigServer
+          clone-on-start: true
